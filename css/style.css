@@ -12,10 +12,18 @@ div {
 	background-color: White; 
 }
 .logo {
-	margin-left: 14px;
+	margin-top: 14px;
 }
-.navigation > .content {
+.navigation .content {
 	width: 970px;
 	height: 70px;
 	margin: 0 Auto;
+	padding: 0px 15px;
+}
+.navigation .links {
+	float: right;
+}
+.navigation .links li {
+	display: inline-block;
+	margin-left: 25px;
 }
