@@ -1,12 +1,17 @@
 
- Use for guiding purposes
+ /*Use for guiding purposes
 body {
 	background-color: LightGray;
 }
 div {
 	border: 1px solid Chocolate;
+} */
+html {
+  box-sizing: border-box;
 }
-
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 /*Nagivation Section */
 .navigation {
 	background-color: White; 
@@ -22,8 +27,30 @@ div {
 }
 .navigation .links {
 	float: right;
+	font-family: 'Roboto', sans-serif;
+	color: #838994;
+	font-size: 16px;
+	margin-top: 25px;
+	letter-spacing: 0.03em
+	-webkit-font-smoothing: antialiased;
 }
 .navigation .links li {
 	display: inline-block;
 	margin-left: 25px;
+}
+.navigation .links .active {
+	color: #4c5058;
+	font-weight: 500;
+}
+.navigation .links li:hover {
+	cursor: pointer;
+	color: #333333;
+}
+/*removes underline and blue color from hyperlinks*/
+a:link {
+	text-decoration: none;
+	color: #333333;
+}
+a:hover {
+	color: #838994;
 }
