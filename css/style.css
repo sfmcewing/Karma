@@ -80,3 +80,23 @@ a:hover {
 	margin-top: -1.25rem;
 	font-size: 1.563rem;
 }
+/* Styling the button */
+.big-button {
+	width: 9.688rem;
+	background-color: #f15a29;
+	border-color: #f15a29;
+	text-shadow: none;
+	border-style: none;
+	border-radius: 4px;
+	padding: 16px 26px;
+	color: white;
+	/*line-height: 1.33;
+	display: block;*/
+	margin: 0 auto;
+	text-align: center;
+}
+.big-button:hover {
+	background-color: #d9400e;
+	cursor: pointer;
+}
+
