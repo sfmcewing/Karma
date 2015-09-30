@@ -1,0 +1,18 @@
+
+ Use for guiding purposes
+body {
+	background-color: LightGray;
+}
+div {
+	border: 1px solid Chocolate;
+}
+
+/*Nagivation Section */
+.navigation {
+	background-color: White; 
+}
+.navigation > .content {
+	width: 970px;
+	height: 70px;
+	margin: 0 Auto;
+}
