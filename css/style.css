@@ -11,6 +11,9 @@ div {
 .navigation {
 	background-color: White; 
 }
+.logo {
+	margin-left: 14px;
+}
 .navigation > .content {
 	width: 970px;
 	height: 70px;
