@@ -99,4 +99,12 @@ a:hover {
 	background-color: #d9400e;
 	cursor: pointer;
 }
+.body h2 {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+.images {
+	text-align: center;
+	display: inline;
+}
 
