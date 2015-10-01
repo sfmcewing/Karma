@@ -149,9 +149,18 @@ h5 {
 	overflow: hidden;
 	padding: 0;
 }
-.social .icons > li{
+.social .icons > li {
 	display: inline-block;
-
+	/*border-radius rounds the corners*/
+	border-radius: 1.25rem;
+	border: 1px solid #eaebec;
+	width: 2.5rem;
+	height: 2.5rem;
+	text-align: center;
+	/*first margin number moves top and bottom further/closer away, the second number moves icons closer/further together*/
+	margin: 1.25rem 3px;
+	/*first padding # adds/subtracts space top and bottom between icon and radius, second # does the same but to the left and right*/
+	padding: 0.625rem 0;
 }
 .social .twitter {
 	color: #55acee;
