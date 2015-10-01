@@ -18,9 +18,12 @@ body {
 /*Nagivation Section */
 .navigation {
 	background-color: White;
+	/*fixes nav bar in place as you scroll*/
 	position: fixed;
+	/*fixed position acts weird, need to give it 100% width*/
 	width: 100%;
-	z-index: 9999; 
+	z-index: 9999;
+	border-bottom: 1px solid #DDD; 
 }
 .logo {
 	margin-top: 14px;
@@ -83,6 +86,7 @@ a:hover {
 	margin-top: -1.25rem;
 	font-size: 1.563rem;
 }
+
 /* Styling the button */
 .big-button {
 	width: 9.688rem;
@@ -102,6 +106,7 @@ a:hover {
 	background-color: #d9400e;
 	cursor: pointer;
 }
+
 /*Styling the icons*/
 .cases .content{
   margin-top: 7.875rem;
@@ -113,23 +118,47 @@ a:hover {
   margin: 1.625rem 0 3.125rem;
   font-weight: 300;
 }
+/*
 .cases .devices ul {
-  list-style-type: none;
+  /*list-style-type: none;
   margin: 0;
-  padding:0 ;
-  overflow: hidden;
-}
+  padding: 0;
+ /* overflow: hidden;
+}*/ 
 
 .cases .devices li {
   display: inline-block;
   width: 33.33333333%;
   float: left;
 }
-
-.cases h3{
+.cases h3 {
   font-weight: 400;
   font-size: 1.563rem;
   margin: 2.5rem 0px 1.875rem;
 }
 
-
+/*Styling the footer*/
+.social {
+	text-align: center;
+}
+h5 {
+	font: inherit;
+}
+.social ul {
+	list-style-type: none;
+	overflow: hidden;
+	padding: 0;
+}
+.social .icons > li{
+	display: inline-block;
+	
+}
+.social .twitter {
+	color: #55acee;
+}
+.social .facebook {
+	color: #4c66a4;
+}
+.social .instagram {
+	color: #3f729b;
+}
