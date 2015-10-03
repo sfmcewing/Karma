@@ -66,7 +66,7 @@ a:hover {
 
 /*Styling the introduction block*/ 
 .introduction {
-	background-image: url('/images/Karma-background.jpg');
+	background-image: url('../images/Karma-background.jpg');
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
