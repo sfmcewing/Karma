@@ -13,7 +13,7 @@ html {
   box-sizing: inherit;
 }
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', Arial, sans-serif;
 }
 /*Nagivation Section */
 .navigation {
@@ -75,7 +75,7 @@ a:hover {
 	overflow: auto;
 }
 .introduction h1, .introduction h3 {
-	color: White;
+	color: white;
 	text-align: center;
 	font-weight: 300;
 }
@@ -97,7 +97,7 @@ a:hover {
 	border-style: none;
 	border-radius: 4px;
 	padding: 16px 26px;
-	color: White;
+	color: white;
 	display: block;
 	margin: 0 auto;
 	text-align: center;
@@ -162,6 +162,7 @@ h5 {
 	margin: 1.25rem 3px;
 	/*first padding # adds/subtracts space top and bottom between icon and radius, second # does the same but to the left and right*/
 	padding: 0.625rem 0;
+	cursor: pointer;
 }
 .social .twitter {
 	color: #55acee;
