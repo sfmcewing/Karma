@@ -20,6 +20,7 @@ body {
 	background-color: White;
 	/*fixes nav bar in place as you scroll*/
 	position: fixed;
+	top: 0;
 	/*fixed position acts weird, need to give it 100% width*/
 	width: 100%;
 	z-index: 9999;
