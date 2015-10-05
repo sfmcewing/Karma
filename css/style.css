@@ -145,6 +145,9 @@ a:hover {
 /*Styling the footer*/
 .social {
 	text-align: center;
+	/*make footer responsive*/
+	max-width: 100%;
+	height: auto;
 }
 
 h5 {
@@ -189,4 +192,10 @@ h5 {
 	font-weight: 300;
 	color: #838994;
 }
-/*all responsive design goes here*/
+
+/*responsive design goes here*/
+@media only screen and (max-width: 500px) {
+    .navigation {
+        font-size: 3em;
+    }
+}
