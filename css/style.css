@@ -194,15 +194,10 @@ h5 {
 }
 
 /*responsive design goes here*/
-/*how many pixels, 500? ~900 is where it stops being responsive*/
+/*how many pixels? ~900 is where it stops being responsive*/
 @media only screen and (max-width: 900px) {
     .navigation .links {
         font-size: 3em;
     }
 }
 
-/*@media screen (max-width: 500px) {
-	.cases .content {
-		vertical-align: middle;
-	}
-}*/
