@@ -198,6 +198,8 @@ h5 {
 @media only screen and (max-width: 900px) {
     .navigation .links {
         font-size: 3em;
+        padding: 0 0;
+        text-align: center;
     }
 }
 
