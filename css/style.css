@@ -196,20 +196,22 @@ h5 {
 }
 
 /*responsive design goes here*/
-/*how many pixels? ~900 is where it stops being responsive*/
 @media only screen and (max-width: 900px) {
     .navigation .links {
+    	/*shrink font size and words closer together*/
         font-size: 0.9em;
         padding: 0 0;
         text-align: center;
         letter-spacing: 0em;
         width: 90%;
     }
+    /*images stack on top of each other as screen shrinks*/
     .cases .devices li {
 	  display: block;
 	  width: 99%;
 	  float: none;
 	}
+	/*shrink font as screen shrinks*/
 	.introduction h1 {
 		font-size: 2em;
 	}
