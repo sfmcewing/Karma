@@ -29,7 +29,7 @@ body {
 }
 
 .navigation .content {
-	width: 970px;
+	width: 80%;
 	height: 70px;
 	margin: 0 Auto;
 	padding: 0px 15px;
@@ -43,11 +43,13 @@ body {
 	margin-top: 25px;
 	letter-spacing: 0.03em;
 	-webkit-font-smoothing: antialiased;
+	width: 70%;
+	text-align: right;
 }
 
 .navigation .links li {
 	display: inline-block;
-	margin-left: 25px;
+	margin-left: 1%;
 }
 
 .navigation .links .active {
@@ -197,9 +199,28 @@ h5 {
 /*how many pixels? ~900 is where it stops being responsive*/
 @media only screen and (max-width: 900px) {
     .navigation .links {
-        font-size: 3em;
+        font-size: 0.9em;
         padding: 0 0;
         text-align: center;
+        letter-spacing: 0em;
+        width: 90%;
     }
+    .cases .devices li {
+	  display: block;
+	  width: 99%;
+	  float: none;
+	}
+	.introduction h1 {
+		font-size: 2em;
+	}
+	.introduction h3 {
+		font-size: 1.5em;
+	}
+	.cases h2 {
+		font-size: 2em;
+	}
+	.cases h3 {
+		font-size: 1.4em;
+	}
 }
 
